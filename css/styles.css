@@ -1,0 +1,64 @@
+body {
+    background-color: #ffc;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #5f5f5f;
+    padding: 10px 30px;
+    color: white;
+}
+
+span {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+main {
+    display: table-row;
+}
+
+.left {
+    width: 15%;
+    min-width: 120px;
+    border-right: 3px groove RosyBrown;
+    display: table-cell;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+li {
+    padding: 10px;
+}
+
+li:hover {
+    background-color: silver;
+    cursor: pointer;
+}
+
+.main_ {
+    width: auto;
+    padding: 20px;
+    display: table-cell;
+
+}
+#exerciseHeader {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.exerciseDescription {
+    font-size: 0.7em;
+    line-height: 1.3em;
+}
+
+.exerciseDescription li {
+    /*font-size: 0.7em;*/
+    line-height: 0.9em;
+    list-style: disc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
